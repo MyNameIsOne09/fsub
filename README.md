@@ -25,7 +25,9 @@ python main.py
 Pantau aktivitas bot dengan mudah melalui sistem log yang rapi:
 
 · Konsol: Menampilkan semua log. Error ditandai dengan >>> ERROR <<< berwarna merah.
+
 · logs/bot.log: Rekam jejak semua aktivitas.
+
 · logs/error.log: Khusus mencatat error beserta detail traceback-nya.
 
 Sistem ini otomatis menangkap error dari handler Telegram maupun thread yang berjalan di latar belakang.
@@ -37,6 +39,7 @@ Sistem ini otomatis menangkap error dari handler Telegram maupun thread yang ber
 <center>
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" width="24" height="24" /> <a href="https://t.me/zentokki">PEMILIK REPOSITORY</a>
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" width="24" height="24" /> <a href="https://instagram.com/nicomarchel">FOLLOW ME</a>
 
 </center>
@@ -44,5 +47,5 @@ Sistem ini otomatis menangkap error dari handler Telegram maupun thread yang ber
 ---
 
 <p align="center">
-  Dibuat dengan ❤️ oleh <a href="https://tiktok.com/koniko.m">Zen</a>
+  Dibuat dengan ❤️ oleh <a href="https://www.tiktok.com/@koniko.m?_r=1&_t=ZS-9BQyEEjW4RA">Zen</a>
 </p>
