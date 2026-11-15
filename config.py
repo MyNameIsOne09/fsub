@@ -17,10 +17,10 @@ def _load_env_file(path):
 
 _load_env_file(BASE_DIR / ".env")
 
-TOKEN = os.getenv("BOT_TOKEN", "")
-CHANNEL_USERNAME = "@dangerzonech"
-CHANNEL_ID = -1003065436873
-ADMIN_IDS = [8189597803, 1730118820]
+TOKEN = os.getenv("BOT_TOKEN", "ISI TOKEN BOT DISINI")
+CHANNEL_USERNAME = "@storyzenni"
+CHANNEL_ID = ISI CHANNEL ID BERAWAL -100
+ADMIN_IDS = [8189597803]
 
 DB_PATH = BASE_DIR / "database.db"
 LOG_DIR = BASE_DIR / "logs"
