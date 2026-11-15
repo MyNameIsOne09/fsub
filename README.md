@@ -32,18 +32,17 @@ Sistem ini otomatis menangkap error dari handler Telegram maupun thread yang ber
 
 ---
 
-🌐 Mari Terhubung
+🌐 Mari Kenalan
 
 <center>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" width="24" height="24" /> <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" width="24" height="24" />
-Telegram Instagram
-@zentokki @NicoMarchel
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" width="24" height="24" /> <a href="https://t.me/zentokki">PEMILIK REPOSITORY</a>
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" width="24" height="24" /> <a href="https://instagram.com/nicomarchel">FOLLOW ME</a>
 
 </center>
 
 ---
 
 <p align="center">
-  Dibuat dengan ❤️ oleh <a href="https://t.me/zentokki">Nico Marchel</a>
+  Dibuat dengan ❤️ oleh <a href="https://tiktok.com/koniko.m">Zen</a>
 </p>
