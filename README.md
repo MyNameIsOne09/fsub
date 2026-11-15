@@ -1,4 +1,3 @@
-```markdown
 # 🤖 dzbot
 
 Bot Telegram untuk mengelola unggahan media dengan sistem persetujuan admin sebelum diposting ke channel. Dilengkapi dengan fitur **FSUB** (Force Subscribe).
@@ -66,11 +65,17 @@ features/
 Catatan Pengembangan: 
 Setiap fitur di dalam folder features/ umumnya terdiri dari dua file: queries.py (untuk akses database) dan handlers.py (untuk command/callback).
 
-```
+---
 
-### Apa yang diubah?
-1. **Ikon Emoji:** Menambahkan emoji pada judul (heading) agar tampilan lebih menarik.
-2. **Garis Pemisah (`---`):** Memberikan jarak visual antar bagian utama.
-3. **Blockquote (`>`):** Mengubah teks catatan (Database dan Pengembangan) menjadi *blockquote* agar menonjol dan mudah dibaca.
-4. **Formatting Kode:** Memastikan perintah terminal dan struktur folder berada di dalam *code block* yang rapi.
-5. **Penomoran:** Menambahkan komentar `# 1`, `# 2` pada langkah instalasi agar lebih jelas.
+📬 Kontak Developer
+
+Platform Kontak Tautan
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" width="20" height="20" /> Telegram @zentokki t.me/zentokki
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" width="20" height="20" /> Instagram @NicoMarchel instagram.com/NicoMarchel
+
+---
+
+<p align="center">
+  Made with ❤️ by <a href="https://t.me/zentokki">Nico Marchel</a>
+</p>
+```
