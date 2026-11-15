@@ -1,81 +1,49 @@
 # 🤖 dzbot
 
-Bot Telegram untuk mengelola unggahan media dengan sistem persetujuan admin sebelum diposting ke channel. Dilengkapi dengan fitur **FSUB** (Force Subscribe).
+Bot Telegram minimalis untuk mengelola unggahan media. Dirancang dengan alur persetujuan admin sebelum konten diposting ke channel, lengkap dengan fitur **FSUB** (Force Subscribe).
 
 ---
 
-## 🚀 Menjalankan (Server / Termux)
+## 🚀 Mulai Menjalankan
 
-Ikuti langkah berikut untuk menjalankan bot:
+Siapkan bot kamu dalam tiga langkah mudah:
 
 ```bash
-# 1. Install dependensi
+# 1. Pasang dependensi
 pip install -r requirements.txt
 
-# 2. Salin file konfigurasi dan isi BOT_TOKEN
+# 2. Konfigurasi token
 cp .env.example .env
 
 # 3. Jalankan bot
 python main.py
 ```
-
-Catatan Database: 
-Database database.db akan dibuat otomatis di folder ini. Jika kamu memiliki data lama, ganti nama file dzbotloini.db menjadi database.db.
-
 ---
 
 📝 Logging
 
-Sistem log dirancang untuk memudahkan debugging:
+Pantau aktivitas bot dengan mudah melalui sistem log yang rapi:
 
-· Konsol (Server/Termux): Menampilkan semua log. Error ditandai dengan >>> ERROR <<< dan berwarna merah.
-· logs/bot.log: Mencatat semua aktivitas log.
-· logs/error.log: Hanya mencatat error beserta traceback lengkap.
+· Konsol: Menampilkan semua log. Error ditandai dengan >>> ERROR <<< berwarna merah.
+· logs/bot.log: Rekam jejak semua aktivitas.
+· logs/error.log: Khusus mencatat error beserta detail traceback-nya.
 
-Error dari handler Telegram ditangkap oleh core/errors.py, sedangkan error yang lolos (termasuk di dalam thread) akan ditangkap oleh hook di core/logger.py.
-
----
-
-📁 Struktur Proyek
-
-```text
-main.py                  Daftar command/handler + start polling
-config.py                Token (.env), channel, admin, path database/log
-
-core/
-  database.py            Koneksi, skema, migrasi (init_db)
-  logger.py              Pengaturan log konsol + file
-  errors.py              Error handler Telegram
-  helpers.py             is_admin, download_file
-  compat.py              Patch imghdr untuk Python 3.13+
-
-features/
-  menu/                  /start, panel admin, bantuan, /stats
-  upload/                Kirim foto/video/gif, pilih hashtag
-  approval/              ACC/TOLAK/caption, grup approval, /pending, /hapus, /listpost
-  delivery/              Posting ke channel + kirim konten lewat link share
-  fsub/                  Channel wajib join, invite link, teks subscription
-  hashtag/               Daftar hashtag + gambar per hashtag
-  buttons/               Tombol custom di postingan channel
-  whitelist/             Whitelist upload
-  thumbnail/             Thumbnail default channel
-  broadcast/             /bc /bcfoto /bcvideo
-```
-
-Catatan Pengembangan: 
-Setiap fitur di dalam folder features/ umumnya terdiri dari dua file: queries.py (untuk akses database) dan handlers.py (untuk command/callback).
+Sistem ini otomatis menangkap error dari handler Telegram maupun thread yang berjalan di latar belakang.
 
 ---
 
-📬 Kontak Developer
+🌐 Mari Terhubung
 
-Platform Kontak Tautan
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" width="20" height="20" /> Telegram @zentokki t.me/zentokki
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" width="20" height="20" /> Instagram @NicoMarchel instagram.com/NicoMarchel
+<center>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" width="24" height="24" /> <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" width="24" height="24" />
+Telegram Instagram
+@zentokki @NicoMarchel
+
+</center>
 
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://t.me/zentokki">Nico Marchel</a>
+  Dibuat dengan ❤️ oleh <a href="https://t.me/zentokki">Nico Marchel</a>
 </p>
-```
